@@ -11,7 +11,7 @@
 	// Instagram Account
 	"account": {
 		"username": "arcs2k",   // instagram nickname
-		"password": "Andre2011", // instagram password
+		"password": "Master5377", // instagram password
 		"pin_method": "auto"    // 2FA: method for receive pin (auto: first authenticator if is enabled and after sms)
 	},
 
