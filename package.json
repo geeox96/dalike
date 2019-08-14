@@ -1,8 +1,8 @@
 {
 	"name": "@social-manager-tools/igbot",
 	"description": "Social Manager Tools: Instagram Bot API",
-	"version": "0.10.0-nightly.20190511",
-	"main": "modules/core/lib.js",
+	"version": "0.9.18",
+	"main": "lib.js",
 	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"license": "MIT",
 	"license-docs": "CC BY 4.0",
@@ -52,7 +52,6 @@
 		"docs": "git submodule update --recursive && markserv ./docs/README.md",
 		"test": "jest",
 		"contributors-generate": "all-contributors generate",
-		"postinstall": "opencollective-postinstall",
 		"devpostinstall": "npm run docs-init && npm run contributors-generate && npm run docker-fix && opencollective-postinstall"
 	},
 	"husky": {
@@ -82,13 +81,12 @@
 		"node": ">=10.0.0"
 	},
 	"dependencies": {
-		"puppeteer": "latest",
-		"chalk": "latest",
-		"fs-extra": "latest",
-		"lowdb": "latest",
+		"puppeteer": "1.13.0",
+		"compare-versions": "latest",
+		"colors": "latest",
+		"path": "latest",
 		"request": "latest",
-		"uuid": "latest",
-		"strip-ansi": "latest"
+		"sqlite3": "latest"
 	},
 	"devDependencies": {
 		"eslint": "latest",
@@ -119,7 +117,6 @@
 		"Julian Xhokaxhiu [@julianxhokaxhiu] (https://github.com/julianxhokaxhiu)",
 		"lecoueyl [@lecoueyl] (https://github.com/lecoueyl)",
 		"Lollymouth [@lollymouth] (https://github.com/lollymouth)",
-		"roNn23 [@roNn23] (https://github.com/roNn23)",
-		"Andrea [@m0s4ik] (https://github.com/m0s4ik)"
+		"roNn23 [@roNn23] (https://github.com/roNn23)"
 	]
 }
